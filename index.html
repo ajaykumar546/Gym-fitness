@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Fitness</title>
+</head>
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik+Pixels">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css Reset */
+    body{
+        /* font-family: 'Baloo Bhai',cutsive; */
+        font-style: small-caps;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/fitness.jpg');
+        
+    }
+    .left img{
+        width: 85px;
+        height: 40px;
+        filter: invert(100%);
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 38px;
+        top: 20px;
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .mid{
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+    .Right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline;
+    }
+    .navbar li{
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid rgb(210, 145, 145);
+        border-radius: 10px;
+    }
+    .btn:hover{
+        color: gray;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 84px 40px;
+        padding: 28px 1px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        font-style: small-caps;
+        text-align: center;
+        display: block;
+        width: 336px;
+        padding: 3px;
+        margin: 3px auto;
+        font-size: 12px;
+        border-radius: 9px;
+
+    }
+    .container h1{
+        text-align: center;
+        font-size: 28px;
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <header>
+        <!-- Left Box For Logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>Ajay Fitness</div>
+
+        </div>
+        <!-- mid Box for navbar -->
+        <div class="mid">
+             <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+             </ul>
+
+        </div>
+        <!-- right Box for button -->
+        <div class="Right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gmy BAngalore</h1>
+        <form action="Noaction.php"></form>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
